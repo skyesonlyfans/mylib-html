@@ -206,7 +206,7 @@
         import { getAuth, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
         import { getFirestore, setDoc, getDoc, doc, collection, onSnapshot, addDoc, deleteDoc } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
         // *** NEW: AWS S3 SDK v3 Import for Backblaze B2 ***
-        import { S3Client, ListObjectsV2Command } from "https://cdn.jsdelivr.net/npm/@aws-sdk/client-s3@3.592.0/dist-es/index.js";
+        import { S3Client, ListObjectsV2Command } from "https://esm.sh/@aws-sdk/client-s3@3.592.0";
         
         // --- CONFIGURATION ---
         const firebaseConfig = {
